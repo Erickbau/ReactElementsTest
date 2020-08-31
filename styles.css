@@ -1,0 +1,83 @@
+html, body, div, button, p, a{
+    margin: 0%;
+    padding: 0%;
+    border: 0%; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 724px) and (min-width:260px){
+/* Estilizando o Botão Principal*/
+    .ButtonHomePage{
+        width: 100vw;
+        height: 15vh;
+        
+    }
+    .ButtonHomePage button {
+        width: 100vw;
+        height: 15vh;
+        border:none;
+        align-items: center;
+        background-color: #ADC743;
+    }
+    .name{
+        font-size: clamp(5px, 8vw, 24px);
+        margin-bottom: .5rem;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        
+    }
+    .description{
+        font-size: clamp(15px, 3vw, 16px);
+        position: relative;
+        bottom: 1vh;
+
+        
+    }
+    .MainPhase {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        height: 70vh;
+        background-image:url('./img/Fundo.jpg');
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        
+    }
+    .MainPhase p{
+        margin: 0 0;
+        display: flex;
+        text-align: center;
+        background-color: hsla(0, 0%, 96%, 0.25);
+        font-size: clamp(8vh, 10vw, 50px);
+    }
+    .SocialNetwork{
+        width: 100vw;
+        height: 15vh;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .SocialNetwork a{
+        width: clamp(24px, 10%, 35px);
+    }
+
+    .SocialNetwork img{
+        width: clamp(24px, 10%, 35px);
+    }
+
+    .SocialNetwork  a:nth-last-of-type(1){
+       margin-left: 10%;
+    }
+    .SocialNetwork  a:nth-last-of-type(2){
+       margin-left: 10%;
+    }
+    .SocialNetwork  a:nth-last-of-type(3){
+       margin-left: 10%;
+    }
+        
+}
