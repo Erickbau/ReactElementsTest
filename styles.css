@@ -55,31 +55,31 @@ a{
         background-color: hsla(0, 0%, 96%, 0.25);
         font-size: clamp(8vh, 10vw, 50px);
     }
-    .SocialNetwork{
+    .Container{
         width: 100vw;
         height: 15vh;
         text-decoration: none;
         display: flex;
         align-items: center;
+        flex-direction: row;
     }
 
-    .SocialNetwork a{
-        width: clamp(24px, 10vw, 40px);
-    }
-
-    .SocialNetwork img{
+    .Container .SocialNetwork a img, .menu a img{
         width: clamp(24px, 10vw, 40px);
         filter: opacity(70%);
     }
-
-    .SocialNetwork  a:nth-last-of-type(1){
-       margin-left: 15%;
+    .SocialNetwork{
+        width:50%;
     }
-    .SocialNetwork  a:nth-last-of-type(2){
-       margin-left: 15%;
+    .SocialNetwork a img{
+        margin-left: 10%;
     }
-    .SocialNetwork  a:nth-last-of-type(3){
-       margin-left: 5%;
-    }
-        
+    .menu{
+        width: 50%;       
+    }   
+    .menu img{
+        display: flex;
+        float: right;
+        margin-right: 10%;
+    } 
 }
