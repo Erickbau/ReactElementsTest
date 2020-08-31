@@ -43,8 +43,9 @@ a{
         width: 100vw;
         height: 70vh;
         background-image:url('./img/Fundo.jpg');
-        background-size: auto 100%;
-        background-repeat: no-repeat;
+        background-size: 724px 483px;
+        background-position-x: clamp(-126px, -35vw, -126px);
+        background-repeat: repeat-x;
         
     }
     .MainPhase p{
@@ -63,21 +64,22 @@ a{
     }
 
     .SocialNetwork a{
-        width: clamp(24px, 10%, 35px);
+        width: clamp(24px, 10vw, 40px);
     }
 
     .SocialNetwork img{
-        width: clamp(24px, 10%, 35px);
+        width: clamp(24px, 10vw, 40px);
+        filter: opacity(70%);
     }
 
     .SocialNetwork  a:nth-last-of-type(1){
-       margin-left: 10%;
+       margin-left: 15%;
     }
     .SocialNetwork  a:nth-last-of-type(2){
-       margin-left: 10%;
+       margin-left: 15%;
     }
     .SocialNetwork  a:nth-last-of-type(3){
-       margin-left: 10%;
+       margin-left: 5%;
     }
         
 }
