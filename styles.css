@@ -1,14 +1,16 @@
-html, body, div, button, p, a{
-    margin: 0%;
-    padding: 0%;
-    border: 0%; 
-}
+
 a{
     text-decoration: none;
     color: black;
 }
 
 @media (max-width: 724px) and (min-width:260px){
+    html, body, div, button, p, a{
+        margin: 0%;
+        padding: 0%;
+        border: 0px; 
+        text-decoration: none;
+    }
 /* Estilizando o Botão Principal*/
     .ButtonHomePage{
         width: 100vw;
@@ -51,10 +53,13 @@ a{
     .MainPhase p{
         margin: 0 0;
         display: flex;
+        flex-direction: column;
         text-align: center;
+        align-items: center;
         background-color: hsla(0, 0%, 96%, 0.25);
         font-size: clamp(8vh, 10vw, 50px);
     }
+
     .Container{
         width: 100vw;
         height: 15vh;
@@ -74,6 +79,11 @@ a{
     .SocialNetwork a img{
         margin-left: 10%;
     }
+    .SocialNetwork a:link:active{
+        width: 20px;
+        height: 20px;
+        background: red ;
+    }
     .menu{
         width: 50%;       
     }   
@@ -82,4 +92,69 @@ a{
         float: right;
         margin-right: 10%;
     } 
+}
+
+/* Styled Main */
+main, section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+.About{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.About .sec-1 img{
+    width: 100vw;
+    height: 45vh;
+}
+.About .sec-2 {
+    width: 100vw;
+    height: 45vh;
+}
+.About .sec-3 button{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    padding: 0 200px 0 0;
+}
+
+.Blog{
+
+}
+.Blog .sec-1 button{
+    width: 100vw;
+    height: 10vh;
+    background-color: red;
+
+}
+
+.Blog .sec-2 {
+    width: 100vw;
+    height: 45vh;
+}
+
+.Blog .sec-3 img{
+    width: 100vw;
+    height: 45vh;
+}
+
+.Services .sec-1 button{
+    width: 100vw;
+    height: 10vh;
+    background-color: red;
+
+}
+
+.Services .sec-2 {
+    width: 100vw;
+    height: 45vh;
+}
+
+.Services .sec-3 img{
+    width: 100vw;
+    height: 45vh;
 }
