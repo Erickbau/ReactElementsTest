@@ -23,6 +23,7 @@ a{
         border:none;
         align-items: center;
         background-color: #ADC743;
+        
     }
     .name{
         font-size: clamp(5px, 8vw, 24px);
@@ -122,9 +123,6 @@ main, section{
     padding: 0 200px 0 0;
 }
 
-.Blog{
-
-}
 .Blog .sec-1 button{
     width: 100vw;
     height: 10vh;

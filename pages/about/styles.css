@@ -1,0 +1,171 @@
+@media (max-width: 724px) and (min-width:260px){
+    html, body, div, button, p, a{
+        margin: 0%;
+        padding: 0%;
+        border: 0px; 
+        text-decoration: none;
+    }
+    h1,h2,h3,h4,h5,h6{
+        margin: 0%;
+        border: 0px;
+        padding: 0%;
+    }
+    ul, li{
+        list-style: none;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+/* Estilizando o Botão Principal*/
+    .ButtonHomePage{
+        width: 100vw;
+        height: 15vh;
+        
+    }
+    .ButtonHomePage button {
+        width: 100vw;
+        height: 15vh;
+        border:none;
+        align-items: center;
+        background-color: #ADC743;
+    }
+    .name{
+        font-size: clamp(5px, 8vw, 24px);
+        margin-bottom: .5rem;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        
+    }
+    .description{
+        font-size: clamp(15px, 3vw, 16px);
+        position: relative;
+        bottom: 1vh;    
+    }
+    nav{
+        width: 100vw;
+        height: 15vh;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    nav .SocialNetwork a img, .menu a img{
+        width: clamp(24px, 10vw, 40px);
+        filter: opacity(70%);
+    }
+    .SocialNetwork{
+        width:50%;
+    }
+    .SocialNetwork a img{
+        margin-left: 10%;
+    }
+    .SocialNetwork a:link:active{
+        width: 20px;
+        height: 20px;
+        background: red ;
+    }
+    .menu{
+        width: 50%;       
+    }   
+    .menu img{
+        display: flex;
+        float: right;
+        margin-right: 10%;
+    } 
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    main .title{
+        display: flex;
+        width: 100vw;
+        height: 20vh;
+        background-image: url('../../img/fundoMadeira.jpg');
+        background-size: 100%;
+        color: white;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    main .img-1 img{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    main .content{
+        width: 85vw;
+        height: 100vh;
+        padding-top: 30px;
+    }
+    main .content h3{
+        width: 100%;
+        text-align: start;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    main .content p{
+        width: 100%;
+        text-align: start;
+        font-size: 23px;
+    }
+    main .expertises{
+        background-color: mediumseagreen;
+        height: 45vh;
+        width: 100vw;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    main .expertises h3{
+        font-style: italic;
+        color: white;
+        font-size: 25px;
+    }
+    main .expertises ul li{
+        margin-bottom: 20px;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    footer{
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-image: url('../../img/fundoMadeira.jpg');
+        background-size: 100%;
+        color: white;
+    }
+    footer .name-1{
+        margin-top: 40px;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    footer .job{
+        font-size: 18px;
+        margin-bottom: 25px;
+        margin-top: 4px;
+    }
+    footer .info{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    footer .SocialNetwork-1 img{
+        filter: invert(100%);
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+}

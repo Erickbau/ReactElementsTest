@@ -1,0 +1,65 @@
+@media (max-width: 724px) and (min-width:260px){
+    html, body, div, button, p, a{
+        margin: 0%;
+        padding: 0%;
+        border: 0px; 
+        text-decoration: none;
+    }
+/* Estilizando o Botão Principal*/
+    .ButtonHomePage{
+        width: 100vw;
+        height: 15vh;
+        
+    }
+    .ButtonHomePage button {
+        width: 100vw;
+        height: 15vh;
+        border:none;
+        align-items: center;
+        background-color: #ADC743;
+    }
+    .name{
+        font-size: clamp(5px, 8vw, 24px);
+        margin-bottom: .5rem;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        
+    }
+    .description{
+        font-size: clamp(15px, 3vw, 16px);
+        position: relative;
+        bottom: 1vh;    
+    }
+    .Container{
+        width: 100vw;
+        height: 15vh;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .Container .SocialNetwork a img, .menu a img{
+        width: clamp(24px, 10vw, 40px);
+        filter: opacity(70%);
+    }
+    .SocialNetwork{
+        width:50%;
+    }
+    .SocialNetwork a img{
+        margin-left: 10%;
+    }
+    .SocialNetwork a:link:active{
+        width: 20px;
+        height: 20px;
+        background: red ;
+    }
+    .menu{
+        width: 50%;       
+    }   
+    .menu img{
+        display: flex;
+        float: right;
+        margin-right: 10%;
+    } 
+}

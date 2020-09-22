@@ -1,0 +1,41 @@
+html, body, *{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    display:flex;
+    flex-direction: column;
+}
+a, input, button{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.exit{
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.exit img{
+    width: clamp(24px, 10vw, 40px);
+    filter: opacity(95%);
+    float: right;
+    margin: 8px 8px;  
+}
+.container{
+    background-color: greenyellow;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.container ul li{
+    margin-bottom: 20px;
+    border-bottom: black solid 3px;
+}
+.container ul :nth-child(1){
+    margin-top: 10px;
+}
+
+
